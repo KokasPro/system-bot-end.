@@ -3061,4 +3061,8 @@ ${prefix}setprefix
      }
      }); 	 
 	 
+client.on('ready', () => {
+ client.user.setGame('!help | !inv');
+})
+
 client.login(process.env.BOT_TOKEN);
